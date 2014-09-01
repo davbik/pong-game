@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0C0D6719B3D89200204B66 /* ODGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0C0D6619B3D89200204B66 /* ODGameOverScene.m */; };
+		4C0C0D6A19B3DFCF00204B66 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D6819B3DFCF00204B66 /* MyParticle.sks */; };
+		4C0C0D6B19B3DFCF00204B66 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D6919B3DFCF00204B66 /* Untitled.png */; };
+		4C0C0D6E19B3E3BC00204B66 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D6C19B3E3BC00204B66 /* Explosion.sks */; };
+		4C0C0D7319B3E5C000204B66 /* explosionParticle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D7219B3E5C000204B66 /* explosionParticle2.png */; };
+		4C0C0D7919B3EE1200204B66 /* boop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D7719B3EBB400204B66 /* boop.caf */; };
+		4C0C0D7B19B3EF4600204B66 /* explosions.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D7A19B3EF4600204B66 /* explosions.caf */; };
+		4C0C0D8119B3F3C500204B66 /* Ambler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D7E19B3F3C500204B66 /* Ambler.mp3 */; };
+		4C0C0D8219B3F3C500204B66 /* Home Base Groove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D7F19B3F3C500204B66 /* Home Base Groove.mp3 */; };
+		4C0C0D8319B3F3C500204B66 /* Pinball Spring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C0D8019B3F3C500204B66 /* Pinball Spring.mp3 */; };
+		4C34106A19B3A36E00EE746E /* ODGround.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C34106919B3A36E00EE746E /* ODGround.m */; };
+		4C72201619B34C36003B1ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201519B34C36003B1ADD /* Foundation.framework */; };
+		4C72201819B34C36003B1ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201719B34C36003B1ADD /* CoreGraphics.framework */; };
+		4C72201A19B34C36003B1ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201919B34C36003B1ADD /* UIKit.framework */; };
+		4C72201C19B34C36003B1ADD /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201B19B34C36003B1ADD /* SpriteKit.framework */; };
+		4C72202219B34C36003B1ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C72202019B34C36003B1ADD /* InfoPlist.strings */; };
+		4C72202419B34C36003B1ADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72202319B34C36003B1ADD /* main.m */; };
+		4C72202819B34C36003B1ADD /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72202719B34C36003B1ADD /* ODAppDelegate.m */; };
+		4C72202B19B34C36003B1ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C72202919B34C36003B1ADD /* Main.storyboard */; };
+		4C72202E19B34C36003B1ADD /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72202D19B34C36003B1ADD /* ODViewController.m */; };
+		4C72203519B34C36003B1ADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C72203419B34C36003B1ADD /* Images.xcassets */; };
+		4C72203C19B34C36003B1ADD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72203B19B34C36003B1ADD /* XCTest.framework */; };
+		4C72203D19B34C36003B1ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201519B34C36003B1ADD /* Foundation.framework */; };
+		4C72203E19B34C36003B1ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72201919B34C36003B1ADD /* UIKit.framework */; };
+		4C72204619B34C36003B1ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C72204419B34C36003B1ADD /* InfoPlist.strings */; };
+		4C72204819B34C36003B1ADD /* A_Ball_Is_Being_Harassed_By_Two_PadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72204719B34C36003B1ADD /* A_Ball_Is_Being_Harassed_By_Two_PadsTests.m */; };
+		4C72205219B34C45003B1ADD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C72205119B34C45003B1ADD /* AVFoundation.framework */; };
+		4C72205519B34D2A003B1ADD /* ODTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72205419B34D2A003B1ADD /* ODTitleScene.m */; };
+		4C72205819B35AA0003B1ADD /* ODGameplayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72205719B35AA0003B1ADD /* ODGameplayScene.m */; };
+		4C72205B19B3685B003B1ADD /* ODPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72205A19B3685B003B1ADD /* ODPad.m */; };
+		4C72206119B3742E003B1ADD /* ODUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72206019B3742E003B1ADD /* ODUtil.m */; };
+		4C72206419B3771C003B1ADD /* ODBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C72206319B3771C003B1ADD /* ODBall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C72203F19B34C36003B1ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C72200A19B34C36003B1ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C72201119B34C36003B1ADD;
+			remoteInfo = "The Ball Is Being Harassed By Two Pads";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C0C0D6519B3D89200204B66 /* ODGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODGameOverScene.h; sourceTree = "<group>"; };
+		4C0C0D6619B3D89200204B66 /* ODGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODGameOverScene.m; sourceTree = "<group>"; };
+		4C0C0D6819B3DFCF00204B66 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		4C0C0D6919B3DFCF00204B66 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		4C0C0D6C19B3E3BC00204B66 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		4C0C0D7219B3E5C000204B66 /* explosionParticle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosionParticle2.png; sourceTree = "<group>"; };
+		4C0C0D7719B3EBB400204B66 /* boop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = boop.caf; sourceTree = "<group>"; };
+		4C0C0D7A19B3EF4600204B66 /* explosions.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosions.caf; sourceTree = "<group>"; };
+		4C0C0D7E19B3F3C500204B66 /* Ambler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ambler.mp3; sourceTree = "<group>"; };
+		4C0C0D7F19B3F3C500204B66 /* Home Base Groove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Home Base Groove.mp3"; sourceTree = "<group>"; };
+		4C0C0D8019B3F3C500204B66 /* Pinball Spring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pinball Spring.mp3"; sourceTree = "<group>"; };
+		4C34106819B3A36E00EE746E /* ODGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODGround.h; sourceTree = "<group>"; };
+		4C34106919B3A36E00EE746E /* ODGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODGround.m; sourceTree = "<group>"; };
+		4C72201219B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Ball Is Being Harassed By Two Pads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C72201519B34C36003B1ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C72201719B34C36003B1ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C72201919B34C36003B1ADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C72201B19B34C36003B1ADD /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4C72201F19B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Ball Is Being Harassed By Two Pads-Info.plist"; sourceTree = "<group>"; };
+		4C72202119B34C36003B1ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C72202319B34C36003B1ADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C72202519B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A Ball Is Being Harassed By Two Pads-Prefix.pch"; sourceTree = "<group>"; };
+		4C72202619B34C36003B1ADD /* ODAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODAppDelegate.h; sourceTree = "<group>"; };
+		4C72202719B34C36003B1ADD /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
+		4C72202A19B34C36003B1ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C72202C19B34C36003B1ADD /* ODViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODViewController.h; sourceTree = "<group>"; };
+		4C72202D19B34C36003B1ADD /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
+		4C72203419B34C36003B1ADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C72203A19B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Ball Is Being Harassed By Two PadsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C72203B19B34C36003B1ADD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C72204319B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Ball Is Being Harassed By Two PadsTests-Info.plist"; sourceTree = "<group>"; };
+		4C72204519B34C36003B1ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C72204719B34C36003B1ADD /* A_Ball_Is_Being_Harassed_By_Two_PadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_Ball_Is_Being_Harassed_By_Two_PadsTests.m; sourceTree = "<group>"; };
+		4C72205119B34C45003B1ADD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C72205319B34D2A003B1ADD /* ODTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODTitleScene.h; sourceTree = "<group>"; };
+		4C72205419B34D2A003B1ADD /* ODTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODTitleScene.m; sourceTree = "<group>"; };
+		4C72205619B35AA0003B1ADD /* ODGameplayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODGameplayScene.h; path = ../ODGameplayScene.h; sourceTree = "<group>"; };
+		4C72205719B35AA0003B1ADD /* ODGameplayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ODGameplayScene.m; path = ../ODGameplayScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4C72205919B3685B003B1ADD /* ODPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODPad.h; sourceTree = "<group>"; };
+		4C72205A19B3685B003B1ADD /* ODPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODPad.m; sourceTree = "<group>"; };
+		4C72205F19B3742E003B1ADD /* ODUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODUtil.h; sourceTree = "<group>"; };
+		4C72206019B3742E003B1ADD /* ODUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODUtil.m; sourceTree = "<group>"; };
+		4C72206219B3771C003B1ADD /* ODBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODBall.h; sourceTree = "<group>"; };
+		4C72206319B3771C003B1ADD /* ODBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODBall.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C72200F19B34C36003B1ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72205219B34C45003B1ADD /* AVFoundation.framework in Frameworks */,
+				4C72201819B34C36003B1ADD /* CoreGraphics.framework in Frameworks */,
+				4C72201A19B34C36003B1ADD /* UIKit.framework in Frameworks */,
+				4C72201C19B34C36003B1ADD /* SpriteKit.framework in Frameworks */,
+				4C72201619B34C36003B1ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C72203719B34C36003B1ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72203C19B34C36003B1ADD /* XCTest.framework in Frameworks */,
+				4C72203E19B34C36003B1ADD /* UIKit.framework in Frameworks */,
+				4C72203D19B34C36003B1ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0C0D7419B3EAB600204B66 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C0D7E19B3F3C500204B66 /* Ambler.mp3 */,
+				4C0C0D7F19B3F3C500204B66 /* Home Base Groove.mp3 */,
+				4C0C0D8019B3F3C500204B66 /* Pinball Spring.mp3 */,
+				4C0C0D7A19B3EF4600204B66 /* explosions.caf */,
+				4C0C0D7719B3EBB400204B66 /* boop.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		4C72200919B34C36003B1ADD = {
+			isa = PBXGroup;
+			children = (
+				4C72201D19B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads */,
+				4C72204119B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests */,
+				4C72201419B34C36003B1ADD /* Frameworks */,
+				4C72201319B34C36003B1ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C72201319B34C36003B1ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C72201219B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads.app */,
+				4C72203A19B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C72201419B34C36003B1ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C72205119B34C45003B1ADD /* AVFoundation.framework */,
+				4C72201519B34C36003B1ADD /* Foundation.framework */,
+				4C72201719B34C36003B1ADD /* CoreGraphics.framework */,
+				4C72201919B34C36003B1ADD /* UIKit.framework */,
+				4C72201B19B34C36003B1ADD /* SpriteKit.framework */,
+				4C72203B19B34C36003B1ADD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C72201D19B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C0D7419B3EAB600204B66 /* Sounds */,
+				4C0C0D6819B3DFCF00204B66 /* MyParticle.sks */,
+				4C0C0D6C19B3E3BC00204B66 /* Explosion.sks */,
+				4C0C0D6919B3DFCF00204B66 /* Untitled.png */,
+				4C72205919B3685B003B1ADD /* ODPad.h */,
+				4C72205A19B3685B003B1ADD /* ODPad.m */,
+				4C72206219B3771C003B1ADD /* ODBall.h */,
+				4C72206319B3771C003B1ADD /* ODBall.m */,
+				4C34106819B3A36E00EE746E /* ODGround.h */,
+				4C34106919B3A36E00EE746E /* ODGround.m */,
+				4C72205319B34D2A003B1ADD /* ODTitleScene.h */,
+				4C72205419B34D2A003B1ADD /* ODTitleScene.m */,
+				4C72205619B35AA0003B1ADD /* ODGameplayScene.h */,
+				4C72205719B35AA0003B1ADD /* ODGameplayScene.m */,
+				4C0C0D6519B3D89200204B66 /* ODGameOverScene.h */,
+				4C0C0D6619B3D89200204B66 /* ODGameOverScene.m */,
+				4C72205F19B3742E003B1ADD /* ODUtil.h */,
+				4C72206019B3742E003B1ADD /* ODUtil.m */,
+				4C72203419B34C36003B1ADD /* Images.xcassets */,
+				4C0C0D7219B3E5C000204B66 /* explosionParticle2.png */,
+				4C72201E19B34C36003B1ADD /* Supporting Files */,
+			);
+			name = "A Ball Is Being Harassed By Two Pads";
+			path = "The Ball Is Being Harassed By Two Pads";
+			sourceTree = "<group>";
+		};
+		4C72201E19B34C36003B1ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C72202619B34C36003B1ADD /* ODAppDelegate.h */,
+				4C72202719B34C36003B1ADD /* ODAppDelegate.m */,
+				4C72202919B34C36003B1ADD /* Main.storyboard */,
+				4C72202C19B34C36003B1ADD /* ODViewController.h */,
+				4C72202D19B34C36003B1ADD /* ODViewController.m */,
+				4C72201F19B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads-Info.plist */,
+				4C72202019B34C36003B1ADD /* InfoPlist.strings */,
+				4C72202319B34C36003B1ADD /* main.m */,
+				4C72202519B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C72204119B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C72204719B34C36003B1ADD /* A_Ball_Is_Being_Harassed_By_Two_PadsTests.m */,
+				4C72204219B34C36003B1ADD /* Supporting Files */,
+			);
+			name = "A Ball Is Being Harassed By Two PadsTests";
+			path = "The Ball Is Being Harassed By Two PadsTests";
+			sourceTree = "<group>";
+		};
+		4C72204219B34C36003B1ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C72204319B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests-Info.plist */,
+				4C72204419B34C36003B1ADD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C72201119B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C72204B19B34C36003B1ADD /* Build configuration list for PBXNativeTarget "A Ball Is Being Harassed By Two Pads" */;
+			buildPhases = (
+				4C72200E19B34C36003B1ADD /* Sources */,
+				4C72200F19B34C36003B1ADD /* Frameworks */,
+				4C72201019B34C36003B1ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A Ball Is Being Harassed By Two Pads";
+			productName = "The Ball Is Being Harassed By Two Pads";
+			productReference = 4C72201219B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C72203919B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C72204E19B34C36003B1ADD /* Build configuration list for PBXNativeTarget "A Ball Is Being Harassed By Two PadsTests" */;
+			buildPhases = (
+				4C72203619B34C36003B1ADD /* Sources */,
+				4C72203719B34C36003B1ADD /* Frameworks */,
+				4C72203819B34C36003B1ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C72204019B34C36003B1ADD /* PBXTargetDependency */,
+			);
+			name = "A Ball Is Being Harassed By Two PadsTests";
+			productName = "The Ball Is Being Harassed By Two PadsTests";
+			productReference = 4C72203A19B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C72200A19B34C36003B1ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Oleg Drobin";
+				TargetAttributes = {
+					4C72203919B34C36003B1ADD = {
+						TestTargetID = 4C72201119B34C36003B1ADD;
+					};
+				};
+			};
+			buildConfigurationList = 4C72200D19B34C36003B1ADD /* Build configuration list for PBXProject "A Ball Is Being Harassed By Two Pads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C72200919B34C36003B1ADD;
+			productRefGroup = 4C72201319B34C36003B1ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C72201119B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads */,
+				4C72203919B34C36003B1ADD /* A Ball Is Being Harassed By Two PadsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C72201019B34C36003B1ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72202219B34C36003B1ADD /* InfoPlist.strings in Resources */,
+				4C0C0D7319B3E5C000204B66 /* explosionParticle2.png in Resources */,
+				4C0C0D8219B3F3C500204B66 /* Home Base Groove.mp3 in Resources */,
+				4C72203519B34C36003B1ADD /* Images.xcassets in Resources */,
+				4C72202B19B34C36003B1ADD /* Main.storyboard in Resources */,
+				4C0C0D8319B3F3C500204B66 /* Pinball Spring.mp3 in Resources */,
+				4C0C0D6B19B3DFCF00204B66 /* Untitled.png in Resources */,
+				4C0C0D7B19B3EF4600204B66 /* explosions.caf in Resources */,
+				4C0C0D6A19B3DFCF00204B66 /* MyParticle.sks in Resources */,
+				4C0C0D8119B3F3C500204B66 /* Ambler.mp3 in Resources */,
+				4C0C0D7919B3EE1200204B66 /* boop.caf in Resources */,
+				4C0C0D6E19B3E3BC00204B66 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C72203819B34C36003B1ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72204619B34C36003B1ADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C72200E19B34C36003B1ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72205B19B3685B003B1ADD /* ODPad.m in Sources */,
+				4C0C0D6719B3D89200204B66 /* ODGameOverScene.m in Sources */,
+				4C72202419B34C36003B1ADD /* main.m in Sources */,
+				4C72205519B34D2A003B1ADD /* ODTitleScene.m in Sources */,
+				4C72206119B3742E003B1ADD /* ODUtil.m in Sources */,
+				4C72206419B3771C003B1ADD /* ODBall.m in Sources */,
+				4C72202819B34C36003B1ADD /* ODAppDelegate.m in Sources */,
+				4C72202E19B34C36003B1ADD /* ODViewController.m in Sources */,
+				4C72205819B35AA0003B1ADD /* ODGameplayScene.m in Sources */,
+				4C34106A19B3A36E00EE746E /* ODGround.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C72203619B34C36003B1ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72204819B34C36003B1ADD /* A_Ball_Is_Being_Harassed_By_Two_PadsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C72204019B34C36003B1ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C72201119B34C36003B1ADD /* A Ball Is Being Harassed By Two Pads */;
+			targetProxy = 4C72203F19B34C36003B1ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C72202019B34C36003B1ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C72202119B34C36003B1ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C72202919B34C36003B1ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C72202A19B34C36003B1ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C72204419B34C36003B1ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C72204519B34C36003B1ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C72204919B34C36003B1ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C72204A19B34C36003B1ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C72204C19B34C36003B1ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Ball Is Being Harassed By Two Pads/A Ball Is Being Harassed By Two Pads-Prefix.pch";
+				INFOPLIST_FILE = "The Ball Is Being Harassed By Two Pads/A Ball Is Being Harassed By Two Pads-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "A Ball Is Being Harassed By Two Pads";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C72204D19B34C36003B1ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Ball Is Being Harassed By Two Pads/A Ball Is Being Harassed By Two Pads-Prefix.pch";
+				INFOPLIST_FILE = "The Ball Is Being Harassed By Two Pads/A Ball Is Being Harassed By Two Pads-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "A Ball Is Being Harassed By Two Pads";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C72204F19B34C36003B1ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Ball Is Being Harassed By Two Pads.app/The Ball Is Being Harassed By Two Pads";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Ball Is Being Harassed By Two Pads/The Ball Is Being Harassed By Two Pads-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Ball Is Being Harassed By Two PadsTests/A Ball Is Being Harassed By Two PadsTests-Info.plist";
+				PRODUCT_NAME = "A Ball Is Being Harassed By Two PadsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C72205019B34C36003B1ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Ball Is Being Harassed By Two Pads.app/The Ball Is Being Harassed By Two Pads";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Ball Is Being Harassed By Two Pads/The Ball Is Being Harassed By Two Pads-Prefix.pch";
+				INFOPLIST_FILE = "The Ball Is Being Harassed By Two PadsTests/A Ball Is Being Harassed By Two PadsTests-Info.plist";
+				PRODUCT_NAME = "A Ball Is Being Harassed By Two PadsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C72200D19B34C36003B1ADD /* Build configuration list for PBXProject "A Ball Is Being Harassed By Two Pads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C72204919B34C36003B1ADD /* Debug */,
+				4C72204A19B34C36003B1ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C72204B19B34C36003B1ADD /* Build configuration list for PBXNativeTarget "A Ball Is Being Harassed By Two Pads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C72204C19B34C36003B1ADD /* Debug */,
+				4C72204D19B34C36003B1ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C72204E19B34C36003B1ADD /* Build configuration list for PBXNativeTarget "A Ball Is Being Harassed By Two PadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C72204F19B34C36003B1ADD /* Debug */,
+				4C72205019B34C36003B1ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C72200A19B34C36003B1ADD /* Project object */;
+}
